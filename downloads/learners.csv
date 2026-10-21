@@ -1,0 +1,801 @@
+learner_id,programme,batch,attendance,psp
+L0001,Data Science,2025-Q2,71.0,75.4
+L0002,Software Engineering,2024-Q4,92.0,62.6
+L0003,Data Science,2025-Q2,91.0,53.3
+L0004,DevOps,2025-Q2,80.0,41.3
+L0005,Data Science,2025-Q2,90.0,69.3
+L0006,DevOps,2024-Q4,88.0,83.4
+L0007,Data Science,2025-Q3,97.0,40.2
+L0008,Data Science,2025-Q1,66.0,61.7
+L0009,Software Engineering,2024-Q4,62.0,75.6
+L0010,Data Science,2024-Q3,86.0,57.4
+L0011,Software Engineering,2024-Q4,96.0,71.7
+L0012,Software Engineering,2024-Q4,86.0,65.9
+L0013,AI/ML,2024-Q4,88.0,42.5
+L0014,Software Engineering,2024-Q4,81.0,55.1
+L0015,Data Science,2025-Q3,88.0,81.1
+L0016,Software Engineering,2025-Q3,84.0,56.8
+L0017,Software Engineering,2025-Q2,78.0,65.3
+L0018,Software Engineering,2025-Q2,89.0,32.3
+L0019,Software Engineering,2025-Q3,77.0,47.7
+L0020,AI/ML,2025-Q3,89.0,81.1
+L0021,Software Engineering,2025-Q3,82.0,67.3
+L0022,Software Engineering,2024-Q4,74.0,44.1
+L0023,Data Science,2024-Q4,91.0,63.1
+L0024,Data Science,2025-Q1,95.0,54.0
+L0025,AI/ML,2025-Q2,68.0,83.8
+L0026,Data Science,2024-Q3,81.0,61.6
+L0027,Data Science,2024-Q3,85.0,65.7
+L0028,DevOps,2025-Q1,92.0,47.0
+L0029,Software Engineering,2025-Q3,95.0,50.5
+L0030,AI/ML,2024-Q3,69.0,89.1
+L0031,AI/ML,2025-Q1,83.0,62.1
+L0032,Software Engineering,2025-Q2,81.0,69.4
+L0033,Software Engineering,2025-Q2,74.0,60.3
+L0034,Software Engineering,2025-Q3,74.0,69.4
+L0035,Software Engineering,2024-Q4,82.0,82.1
+L0036,Data Science,2024-Q4,82.0,72.9
+L0037,Data Science,2024-Q4,81.0,52.5
+L0038,Data Science,2025-Q2,81.0,92.8
+L0039,Data Science,2025-Q2,66.0,75.9
+L0040,DevOps,2025-Q1,98.0,62.9
+L0041,Software Engineering,2025-Q3,94.0,44.0
+L0042,AI/ML,2024-Q3,77.0,68.5
+L0043,Data Science,2025-Q1,80.0,54.1
+L0044,Software Engineering,2025-Q3,82.0,69.4
+L0045,AI/ML,2025-Q3,67.0,59.4
+L0046,Data Science,2024-Q4,60.0,70.6
+L0047,AI/ML,2025-Q1,95.0,68.4
+L0048,Software Engineering,2025-Q1,87.0,36.9
+L0049,Software Engineering,2025-Q1,95.0,73.1
+L0050,Software Engineering,2025-Q2,86.0,85.3
+L0051,AI/ML,2025-Q3,91.0,54.7
+L0052,DevOps,2024-Q4,82.0,78.3
+L0053,Software Engineering,2025-Q1,79.0,58.6
+L0054,DevOps,2024-Q4,80.0,59.4
+L0055,Software Engineering,2025-Q2,73.0,98.4
+L0056,Software Engineering,2024-Q4,83.0,63.8
+L0057,Software Engineering,2024-Q3,83.0,61.7
+L0058,Software Engineering,2025-Q3,79.0,58.4
+L0059,Software Engineering,2025-Q2,85.0,65.2
+L0060,Data Science,2024-Q4,84.0,61.5
+L0061,DevOps,2025-Q3,93.0,68.0
+L0062,Software Engineering,2024-Q4,87.0,34.2
+L0063,Software Engineering,2025-Q3,89.0,63.0
+L0064,Data Science,2025-Q3,70.0,48.9
+L0065,Software Engineering,2024-Q4,64.0,77.2
+L0066,Software Engineering,2025-Q2,85.0,62.0
+L0067,AI/ML,2025-Q3,87.0,53.0
+L0068,Data Science,2025-Q1,74.0,50.9
+L0069,Data Science,2025-Q3,87.0,47.1
+L0070,Data Science,2025-Q1,65.0,57.4
+L0071,Data Science,2024-Q3,79.0,58.8
+L0072,Data Science,2025-Q3,69.0,58.3
+L0073,Software Engineering,2025-Q2,91.0,61.8
+L0074,Software Engineering,2024-Q4,84.0,72.8
+L0075,Software Engineering,2025-Q1,91.0,52.2
+L0076,Software Engineering,2025-Q1,95.0,88.7
+L0077,DevOps,2025-Q2,80.0,57.1
+L0078,AI/ML,2025-Q1,85.0,53.9
+L0079,AI/ML,2025-Q3,96.0,60.9
+L0080,DevOps,2025-Q1,84.0,66.0
+L0081,Data Science,2024-Q4,83.0,89.1
+L0082,Data Science,2025-Q1,95.0,55.9
+L0083,Software Engineering,2025-Q3,75.0,50.4
+L0084,Software Engineering,2024-Q4,94.0,62.9
+L0085,Data Science,2025-Q1,82.0,54.8
+L0086,Software Engineering,2024-Q4,92.0,98.9
+L0087,DevOps,2025-Q1,90.0,80.5
+L0088,Software Engineering,2025-Q1,96.0,92.8
+L0089,AI/ML,2025-Q3,79.0,65.4
+L0090,Software Engineering,2025-Q3,81.0,84.0
+L0091,Software Engineering,2024-Q4,76.0,76.1
+L0092,Software Engineering,2025-Q3,98.0,97.9
+L0093,Software Engineering,2024-Q4,94.0,85.2
+L0094,Data Science,2025-Q2,92.0,80.6
+L0095,Software Engineering,2025-Q3,78.0,61.2
+L0096,Data Science,2025-Q1,96.0,66.2
+L0097,Software Engineering,2024-Q4,96.0,31.9
+L0098,Data Science,2025-Q2,78.0,51.7
+L0099,Data Science,2024-Q4,78.0,51.7
+L0100,DevOps,2025-Q3,87.0,55.4
+L0101,DevOps,2025-Q3,82.0,87.0
+L0102,AI/ML,2024-Q4,79.0,33.1
+L0103,DevOps,2025-Q2,70.0,70.6
+L0104,Data Science,2025-Q2,89.0,58.9
+L0105,Software Engineering,2025-Q1,85.0,65.3
+L0106,AI/ML,2024-Q4,79.0,65.9
+L0107,Software Engineering,2024-Q4,91.0,71.5
+L0108,DevOps,2025-Q1,76.0,51.4
+L0109,Software Engineering,2025-Q3,87.0,44.3
+L0110,Software Engineering,2025-Q2,77.0,86.6
+L0111,Software Engineering,2025-Q3,86.0,70.8
+L0112,Data Science,2025-Q1,94.0,41.7
+L0113,Software Engineering,2024-Q4,84.0,75.9
+L0114,Software Engineering,2024-Q4,94.0,55.9
+L0115,Software Engineering,2024-Q4,87.0,43.5
+L0116,Software Engineering,2024-Q4,95.0,73.1
+L0117,Data Science,2025-Q2,86.0,40.0
+L0118,Software Engineering,2025-Q3,97.0,56.7
+L0119,Software Engineering,2025-Q1,85.0,70.6
+L0120,Software Engineering,2025-Q1,71.0,43.3
+L0121,Software Engineering,2025-Q2,92.0,39.1
+L0122,Software Engineering,2025-Q1,91.0,69.0
+L0123,Software Engineering,2025-Q2,89.0,68.4
+L0124,Software Engineering,2024-Q4,95.0,44.9
+L0125,Software Engineering,2025-Q1,84.0,64.1
+L0126,DevOps,2025-Q2,69.0,62.9
+L0127,AI/ML,2025-Q2,82.0,71.5
+L0128,Software Engineering,2024-Q4,96.0,59.8
+L0129,Data Science,2025-Q1,79.0,38.2
+L0130,Data Science,2025-Q3,77.0,61.9
+L0131,Software Engineering,2025-Q1,80.0,73.0
+L0132,Data Science,2024-Q3,92.0,63.4
+L0133,Data Science,2025-Q2,75.0,82.9
+L0134,Software Engineering,2025-Q1,89.0,44.4
+L0135,Software Engineering,2025-Q3,91.0,72.7
+L0136,Software Engineering,2024-Q3,74.0,50.0
+L0137,Software Engineering,2024-Q4,85.0,67.5
+L0138,Software Engineering,2025-Q2,89.0,45.5
+L0139,Software Engineering,2025-Q3,94.0,59.0
+L0140,Data Science,2025-Q3,86.0,89.4
+L0141,Data Science,2024-Q4,90.0,59.1
+L0142,Data Science,2025-Q2,82.0,20.1
+L0143,Data Science,2025-Q1,82.0,45.5
+L0144,AI/ML,2025-Q1,70.0,55.9
+L0145,Software Engineering,2024-Q4,81.0,41.8
+L0146,DevOps,2024-Q4,95.0,45.4
+L0147,Data Science,2025-Q3,66.0,63.7
+L0148,Data Science,2024-Q4,92.0,77.0
+L0149,Data Science,2025-Q2,71.0,69.8
+L0150,Data Science,2025-Q2,89.0,58.3
+L0151,Software Engineering,2024-Q4,94.0,31.8
+L0152,Software Engineering,2025-Q1,80.0,52.4
+L0153,Software Engineering,2025-Q2,83.0,46.2
+L0154,Software Engineering,2025-Q1,89.0,58.8
+L0155,Software Engineering,2025-Q1,87.0,69.8
+L0156,DevOps,2025-Q2,89.0,85.9
+L0157,Data Science,2024-Q4,83.0,58.5
+L0158,Data Science,2025-Q1,87.0,43.9
+L0159,Software Engineering,2024-Q4,79.0,40.1
+L0160,AI/ML,2024-Q4,71.0,58.4
+L0161,Software Engineering,2024-Q3,85.0,87.6
+L0162,Data Science,2024-Q4,92.0,31.4
+L0163,AI/ML,2025-Q3,84.0,61.3
+L0164,DevOps,2024-Q3,70.0,92.9
+L0165,Data Science,2025-Q1,74.0,99
+L0166,Software Engineering,2024-Q4,82.0,67.4
+L0167,Data Science,2025-Q1,93.0,97.4
+L0168,AI/ML,2024-Q4,89.0,50.5
+L0169,AI/ML,2025-Q2,82.0,61.5
+L0170,DevOps,2024-Q4,79.0,81.1
+L0171,AI/ML,2025-Q2,87.0,51.5
+L0172,Data Science,2025-Q1,79.0,58.3
+L0173,Data Science,2024-Q4,78.0,76.5
+L0174,AI/ML,2025-Q2,76.0,48.0
+L0175,Software Engineering,2025-Q2,88.0,69.6
+L0176,Software Engineering,2025-Q3,83.0,35.6
+L0177,Software Engineering,2024-Q4,64.0,91.5
+L0178,Software Engineering,2025-Q2,83.0,76.7
+L0179,Software Engineering,2024-Q4,60.0,78.6
+L0180,Software Engineering,2025-Q2,91.0,62.4
+L0181,Data Science,2025-Q2,72.0,69.8
+L0182,Software Engineering,2025-Q2,95.0,65.3
+L0183,Data Science,2025-Q1,89.0,59.0
+L0184,Data Science,2024-Q4,64.0,39.1
+L0185,Software Engineering,2024-Q4,88.0,73.4
+L0186,AI/ML,2025-Q2,86.0,48.3
+L0187,DevOps,2025-Q2,69.0,57.0
+L0188,AI/ML,2025-Q3,68.0,62.9
+L0189,Software Engineering,2025-Q1,87.0,60.7
+L0190,Data Science,2025-Q2,79.0,69.1
+L0191,Software Engineering,2025-Q2,81.0,57.4
+L0192,AI/ML,2025-Q2,94.0,74.7
+L0193,Data Science,2025-Q3,89.0,79.8
+L0194,Software Engineering,2025-Q3,92.0,55.6
+L0195,Data Science,2025-Q3,86.0,63.7
+L0196,Data Science,2025-Q2,82.0,62.4
+L0197,Software Engineering,2024-Q4,73.0,66.2
+L0198,AI/ML,2024-Q3,89.0,73.8
+L0199,Data Science,2025-Q2,76.0,77.2
+L0200,Software Engineering,2025-Q3,86.0,48.2
+L0201,Data Science,2024-Q4,93.0,42.9
+L0202,DevOps,2025-Q3,74.0,67.1
+L0203,Software Engineering,2025-Q1,71.0,68.4
+L0204,Software Engineering,2024-Q4,89.0,56.0
+L0205,Software Engineering,2025-Q2,82.0,61.9
+L0206,Data Science,2025-Q3,84.0,47.2
+L0207,Software Engineering,2025-Q1,82.0,35.6
+L0208,Software Engineering,2025-Q1,70.0,54.1
+L0209,AI/ML,2025-Q2,85.0,58.3
+L0210,DevOps,2025-Q1,80.0,41.8
+L0211,Data Science,2025-Q2,88.0,77.5
+L0212,Software Engineering,2024-Q4,91.0,40.0
+L0213,Software Engineering,2025-Q3,93.0,60.3
+L0214,Data Science,2024-Q4,72.0,66.1
+L0215,Software Engineering,2025-Q3,93.0,26.8
+L0216,DevOps,2024-Q4,78.0,46.9
+L0217,DevOps,2024-Q3,84.0,50.7
+L0218,Data Science,2025-Q1,88.0,41.6
+L0219,AI/ML,2025-Q1,85.0,46.4
+L0220,Data Science,2024-Q4,81.0,45.6
+L0221,Software Engineering,2025-Q3,90.0,47.6
+L0222,Software Engineering,2024-Q3,81.0,59.1
+L0223,DevOps,2024-Q4,63.0,43.3
+L0224,DevOps,2025-Q2,92.0,48.8
+L0225,Software Engineering,2025-Q2,91.0,55.9
+L0226,DevOps,2024-Q4,79.0,58.5
+L0227,AI/ML,2025-Q2,86.0,63.6
+L0228,Software Engineering,2025-Q1,70.0,41.5
+L0229,Data Science,2024-Q4,49.0,40.6
+L0230,AI/ML,2025-Q2,88.0,82.0
+L0231,AI/ML,2025-Q3,98.0,71.1
+L0232,Software Engineering,2025-Q1,83.0,62.0
+L0233,Software Engineering,2025-Q1,100.0,69.2
+L0234,Software Engineering,2025-Q1,92.0,64.4
+L0235,AI/ML,2025-Q2,96.0,55.1
+L0236,DevOps,2024-Q4,96.0,62.3
+L0237,Software Engineering,2025-Q2,86.0,59.8
+L0238,DevOps,2024-Q4,87.0,67.6
+L0239,Data Science,2024-Q4,88.0,40.3
+L0240,Software Engineering,2025-Q3,94.0,40.9
+L0241,DevOps,2025-Q3,93.0,91.7
+L0242,Data Science,2024-Q4,84.0,27.7
+L0243,Software Engineering,2025-Q3,87.0,61.6
+L0244,DevOps,2025-Q1,76.0,80.3
+L0245,DevOps,2025-Q1,97.0,56.7
+L0246,Data Science,2024-Q4,65.0,58.6
+L0247,Software Engineering,2025-Q3,92.0,73.9
+L0248,Software Engineering,2024-Q3,77.0,59.7
+L0249,DevOps,2025-Q3,82.0,76.2
+L0250,Software Engineering,2025-Q2,82.0,72.8
+L0251,Software Engineering,2025-Q2,88.0,44.5
+L0252,Software Engineering,2025-Q1,94.0,76.5
+L0253,Data Science,2025-Q3,86.0,82.4
+L0254,Software Engineering,2025-Q1,90.0,71.0
+L0255,Software Engineering,2025-Q1,84.0,46.0
+L0256,Software Engineering,2025-Q3,89.0,76.8
+L0257,Data Science,2025-Q3,91.0,67.8
+L0258,Software Engineering,2025-Q2,70.0,79.2
+L0259,Software Engineering,2024-Q4,63.0,59.8
+L0260,Software Engineering,2024-Q4,80.0,66.7
+L0261,Software Engineering,2025-Q2,83.0,50.4
+L0262,Software Engineering,2025-Q1,86.0,77.1
+L0263,Software Engineering,2024-Q4,67.0,68.8
+L0264,Software Engineering,2024-Q4,92.0,67.3
+L0265,DevOps,2025-Q3,84.0,89.1
+L0266,Data Science,2025-Q3,82.0,95.5
+L0267,DevOps,2025-Q1,63.0,76.1
+L0268,AI/ML,2024-Q4,87.0,87.2
+L0269,Data Science,2024-Q3,93.0,67.8
+L0270,Software Engineering,2025-Q1,88.0,50.7
+L0271,Data Science,2025-Q2,84.0,36.7
+L0272,Software Engineering,2025-Q2,76.0,77.4
+L0273,AI/ML,2025-Q1,67.0,39.7
+L0274,Software Engineering,2025-Q2,90.0,75.5
+L0275,DevOps,2025-Q2,96.0,77.2
+L0276,Software Engineering,2025-Q2,71.0,63.2
+L0277,Software Engineering,2025-Q3,82.0,58.5
+L0278,Software Engineering,2025-Q1,78.0,72.1
+L0279,DevOps,2024-Q3,78.0,68.5
+L0280,Data Science,2025-Q2,82.0,69.0
+L0281,Software Engineering,2025-Q2,55.0,75.6
+L0282,Data Science,2025-Q1,94.0,28.3
+L0283,AI/ML,2024-Q4,94.0,46.7
+L0284,Software Engineering,2024-Q4,88.0,60.3
+L0285,AI/ML,2025-Q1,93.0,59.7
+L0286,Software Engineering,2025-Q2,96.0,75.1
+L0287,DevOps,2024-Q4,77.0,53.6
+L0288,DevOps,2025-Q1,81.0,47.3
+L0289,Data Science,2024-Q4,88.0,81.7
+L0290,Software Engineering,2025-Q2,94.0,63.6
+L0291,Data Science,2025-Q2,99.0,66.3
+L0292,Software Engineering,2025-Q1,72.0,56.4
+L0293,AI/ML,2024-Q4,79.0,55.8
+L0294,AI/ML,2024-Q3,85.0,79.1
+L0295,Data Science,2024-Q4,75.0,89.6
+L0296,DevOps,2024-Q4,83.0,78.2
+L0297,Software Engineering,2025-Q2,68.0,79.7
+L0298,Software Engineering,2025-Q1,82.0,82.1
+L0299,Data Science,2025-Q3,93.0,67.0
+L0300,Software Engineering,2025-Q1,91.0,68.5
+L0301,Data Science,2024-Q4,84.0,80.5
+L0302,AI/ML,2025-Q2,95.0,60.1
+L0303,Software Engineering,2024-Q4,68.0,44.2
+L0304,DevOps,2025-Q3,90.0,54.3
+L0305,DevOps,2024-Q4,94.0,50.5
+L0306,Software Engineering,2025-Q1,82.0,54.9
+L0307,Software Engineering,2025-Q2,87.0,41.3
+L0308,Software Engineering,2025-Q2,72.0,52.3
+L0309,Software Engineering,2024-Q3,45.0,57.8
+L0310,DevOps,2025-Q2,97.0,82.6
+L0311,DevOps,2025-Q3,92.0,57.2
+L0312,AI/ML,2025-Q1,88.0,77.9
+L0313,Software Engineering,2025-Q3,70.0,68.1
+L0314,Data Science,2024-Q4,93.0,52.8
+L0315,DevOps,2024-Q4,94.0,62.1
+L0316,Software Engineering,2025-Q3,62.0,53.0
+L0317,Software Engineering,2025-Q3,86.0,76.3
+L0318,Software Engineering,2025-Q1,68.0,45.7
+L0319,DevOps,2024-Q4,94.0,43.6
+L0320,DevOps,2025-Q3,99.0,44.0
+L0321,Data Science,2025-Q2,74.0,61.7
+L0322,AI/ML,2025-Q1,95.0,58.4
+L0323,Data Science,2024-Q4,56.0,32.7
+L0324,Data Science,2025-Q3,84.0,84.0
+L0325,Software Engineering,2025-Q1,84.0,49.6
+L0326,Software Engineering,2024-Q3,73.0,55.7
+L0327,Data Science,2025-Q2,92.0,73.1
+L0328,AI/ML,2025-Q3,71.0,78.3
+L0329,Software Engineering,2025-Q1,79.0,61.8
+L0330,DevOps,2024-Q4,80.0,21.2
+L0331,Software Engineering,2025-Q3,79.0,52.1
+L0332,Data Science,2025-Q2,78.0,83.1
+L0333,Software Engineering,2025-Q3,87.0,43.8
+L0334,Software Engineering,2024-Q4,71.0,84.3
+L0335,Software Engineering,2024-Q3,96.0,64.3
+L0336,Software Engineering,2024-Q4,70.0,72.4
+L0337,Software Engineering,2025-Q3,88.0,66.3
+L0338,Data Science,2025-Q1,83.0,53.4
+L0339,DevOps,2025-Q1,96.0,48.1
+L0340,Data Science,2025-Q2,83.0,91.5
+L0341,AI/ML,2024-Q4,72.0,56.0
+L0342,DevOps,2025-Q1,96.0,53.5
+L0343,Software Engineering,2025-Q1,80.0,68.4
+L0344,Software Engineering,2025-Q2,89.0,52.5
+L0345,Data Science,2025-Q1,65.0,54.4
+L0346,Software Engineering,2025-Q1,82.0,58.2
+L0347,AI/ML,2025-Q2,97.0,81.4
+L0348,DevOps,2024-Q4,77.0,70.9
+L0349,Software Engineering,2025-Q3,76.0,69.2
+L0350,DevOps,2025-Q2,70.0,60.5
+L0351,Software Engineering,2025-Q3,72.0,65.8
+L0352,AI/ML,2025-Q1,68.0,61.0
+L0353,Software Engineering,2024-Q4,85.0,77.1
+L0354,DevOps,2024-Q4,94.0,60.4
+L0355,Software Engineering,2025-Q1,89.0,64.2
+L0356,Software Engineering,2024-Q4,84.0,67.5
+L0357,Data Science,2024-Q4,78.0,71.9
+L0358,AI/ML,2025-Q1,80.0,59.8
+L0359,Data Science,2025-Q1,90.0,46.4
+L0360,Data Science,2024-Q4,84.0,80.3
+L0361,DevOps,2025-Q1,80.0,70.5
+L0362,Software Engineering,2025-Q2,75.0,61.9
+L0363,Data Science,2025-Q3,69.0,74.4
+L0364,Software Engineering,2024-Q4,74.0,39.6
+L0365,Software Engineering,2024-Q4,83.0,59.4
+L0366,DevOps,2025-Q3,82.0,54.3
+L0367,Software Engineering,2025-Q2,94.0,47.8
+L0368,AI/ML,2024-Q4,80.0,71.2
+L0369,Software Engineering,2025-Q2,66.0,64.0
+L0370,Data Science,2025-Q2,90.0,37.6
+L0371,AI/ML,2024-Q4,90.0,66.6
+L0372,Software Engineering,2025-Q2,88.0,80.9
+L0373,DevOps,2024-Q4,94.0,64.5
+L0374,DevOps,2024-Q4,90.0,41.9
+L0375,Software Engineering,2025-Q1,87.0,48.6
+L0376,DevOps,2025-Q2,85.0,66.0
+L0377,Data Science,2025-Q3,97.0,49.3
+L0378,Data Science,2025-Q1,94.0,43.5
+L0379,Software Engineering,2025-Q3,93.0,52.6
+L0380,Software Engineering,2025-Q2,86.0,67.7
+L0381,Software Engineering,2025-Q1,74.0,71.6
+L0382,Data Science,2025-Q2,89.0,54.9
+L0383,Data Science,2025-Q2,89.0,61.2
+L0384,Software Engineering,2025-Q1,83.0,53.2
+L0385,Software Engineering,2025-Q1,78.0,53.0
+L0386,AI/ML,2024-Q4,88.0,48.5
+L0387,Software Engineering,2024-Q4,92.0,69.8
+L0388,AI/ML,2025-Q2,95.0,12.7
+L0389,Software Engineering,2024-Q4,79.0,53.0
+L0390,Data Science,2025-Q1,89.0,47.5
+L0391,Data Science,2025-Q1,94.0,54.6
+L0392,Software Engineering,2025-Q2,62.0,60.0
+L0393,DevOps,2024-Q4,79.0,74.7
+L0394,DevOps,2025-Q3,72.0,70.1
+L0395,Data Science,2025-Q1,89.0,46.2
+L0396,Software Engineering,2025-Q3,96.0,38.9
+L0397,AI/ML,2025-Q1,85.0,47.4
+L0398,Software Engineering,2025-Q3,83.0,39.0
+L0399,Software Engineering,2024-Q3,90.0,96.1
+L0400,Software Engineering,2025-Q2,90.0,57.9
+L0401,Data Science,2025-Q3,94.0,62.1
+L0402,AI/ML,2025-Q1,92.0,68.1
+L0403,DevOps,2025-Q1,97.0,44.5
+L0404,Software Engineering,2025-Q1,79.0,69.9
+L0405,Software Engineering,2025-Q2,92.0,59.7
+L0406,DevOps,2024-Q3,79.0,57.4
+L0407,Data Science,2025-Q2,80.0,52.0
+L0408,Software Engineering,2024-Q3,82.0,66.7
+L0409,Software Engineering,2024-Q3,69.0,65.1
+L0410,AI/ML,2025-Q2,83.0,55.4
+L0411,DevOps,2024-Q3,93.0,50.9
+L0412,Data Science,2025-Q1,80.0,57.0
+L0413,Software Engineering,2025-Q1,81.0,57.9
+L0414,Software Engineering,2024-Q3,88.0,56.0
+L0415,Software Engineering,2025-Q1,76.0,63.2
+L0416,DevOps,2024-Q3,95.0,88.5
+L0417,Software Engineering,2025-Q1,82.0,82.2
+L0418,Software Engineering,2025-Q1,83.0,85.1
+L0419,AI/ML,2025-Q2,92.0,37.5
+L0420,Software Engineering,2024-Q4,72.0,66.8
+L0421,Data Science,2025-Q2,77.0,80.9
+L0422,Software Engineering,2025-Q1,89.0,28.0
+L0423,Data Science,2025-Q2,67.0,65.8
+L0424,AI/ML,2025-Q1,87.0,66.7
+L0425,Data Science,2024-Q4,79.0,38.7
+L0426,Software Engineering,2025-Q2,84.0,67.2
+L0427,Data Science,2025-Q3,82.0,38.4
+L0428,Data Science,2025-Q2,75.0,94.9
+L0429,Software Engineering,2025-Q3,76.0,79.5
+L0430,Data Science,2024-Q4,91.0,39.6
+L0431,Software Engineering,2025-Q1,93.0,71.3
+L0432,Data Science,2025-Q1,73.0,71.6
+L0433,DevOps,2025-Q1,66.0,61.4
+L0434,Software Engineering,2024-Q4,81.0,62.4
+L0435,Data Science,2024-Q4,85.0,49.1
+L0436,Software Engineering,2025-Q3,95.0,65.0
+L0437,AI/ML,2024-Q4,77.0,72.8
+L0438,Data Science,2024-Q4,89.0,64.1
+L0439,Data Science,2024-Q4,83.0,63.8
+L0440,Software Engineering,2025-Q2,94.0,70.5
+L0441,Software Engineering,2025-Q1,50.0,66.8
+L0442,Data Science,2025-Q3,78.0,42.2
+L0443,Data Science,2024-Q4,76.0,68.4
+L0444,Software Engineering,2025-Q2,94.0,53.8
+L0445,Data Science,2025-Q3,92.0,46.5
+L0446,Software Engineering,2024-Q4,92.0,75.1
+L0447,AI/ML,2025-Q3,81.0,44.4
+L0448,AI/ML,2025-Q3,71.0,63.5
+L0449,Software Engineering,2024-Q3,91.0,63.3
+L0450,AI/ML,2024-Q3,84.0,76.0
+L0451,Data Science,2024-Q4,88.0,74.4
+L0452,DevOps,2025-Q1,80.0,72.0
+L0453,Software Engineering,2025-Q2,99.0,48.9
+L0454,DevOps,2025-Q1,93.0,32.9
+L0455,Data Science,2024-Q4,85.0,67.9
+L0456,Software Engineering,2025-Q3,79.0,54.4
+L0457,AI/ML,2024-Q3,67.0,26.9
+L0458,Data Science,2025-Q1,98.0,52.3
+L0459,DevOps,2025-Q1,62.0,58.4
+L0460,Data Science,2025-Q3,65.0,46.3
+L0461,Data Science,2024-Q4,93.0,57.8
+L0462,Data Science,2025-Q2,74.0,65.8
+L0463,Software Engineering,2025-Q2,80.0,43.8
+L0464,Data Science,2025-Q2,86.0,62.6
+L0465,Software Engineering,2025-Q1,70.0,69.9
+L0466,AI/ML,2024-Q3,93.0,68.9
+L0467,Data Science,2025-Q3,93.0,73.5
+L0468,Software Engineering,2024-Q4,78.0,68.0
+L0469,DevOps,2025-Q1,78.0,79.8
+L0470,Software Engineering,2024-Q4,79.0,43.4
+L0471,Software Engineering,2025-Q2,95.0,46.8
+L0472,Software Engineering,2024-Q4,69.0,55.3
+L0473,Data Science,2025-Q2,100.0,69.2
+L0474,AI/ML,2024-Q3,78.0,52.5
+L0475,Data Science,2025-Q1,90.0,67.4
+L0476,Software Engineering,2024-Q3,96.0,82.3
+L0477,Data Science,2025-Q1,87.0,46.4
+L0478,DevOps,2024-Q4,97.0,48.6
+L0479,Software Engineering,2025-Q1,80.0,46.9
+L0480,Data Science,2025-Q1,84.0,30.7
+L0481,Software Engineering,2025-Q2,58.0,57.1
+L0482,Data Science,2024-Q4,82.0,64.4
+L0483,Software Engineering,2025-Q3,77.0,55.6
+L0484,Data Science,2025-Q1,71.0,49.4
+L0485,DevOps,2024-Q4,83.0,68.8
+L0486,Data Science,2025-Q2,82.0,63.6
+L0487,Software Engineering,2024-Q3,70.0,55.1
+L0488,Software Engineering,2024-Q4,79.0,49.9
+L0489,Software Engineering,2024-Q4,70.0,47.6
+L0490,Software Engineering,2025-Q3,66.0,68.2
+L0491,Software Engineering,2024-Q3,70.0,15.0
+L0492,Data Science,2025-Q2,97.0,73.6
+L0493,Software Engineering,2025-Q2,85.0,63.2
+L0494,AI/ML,2025-Q3,80.0,68.8
+L0495,AI/ML,2025-Q2,84.0,78.2
+L0496,Software Engineering,2025-Q2,48.0,30.0
+L0497,Software Engineering,2025-Q3,95.0,68.0
+L0498,DevOps,2025-Q2,80.0,51.3
+L0499,Data Science,2025-Q2,76.0,88.8
+L0500,Software Engineering,2024-Q3,89.0,68.0
+L0501,AI/ML,2024-Q4,79.0,64.3
+L0502,DevOps,2024-Q4,76.0,67.0
+L0503,Software Engineering,2025-Q3,63.0,50.7
+L0504,Software Engineering,2024-Q3,88.0,79.8
+L0505,DevOps,2025-Q3,60.0,58.4
+L0506,Data Science,2025-Q2,92.0,82.1
+L0507,Software Engineering,2025-Q2,61.0,45.3
+L0508,Software Engineering,2025-Q2,86.0,59.9
+L0509,Software Engineering,2025-Q1,86.0,79.6
+L0510,DevOps,2025-Q3,73.0,40.3
+L0511,Software Engineering,2025-Q2,83.0,30.6
+L0512,Software Engineering,2025-Q1,90.0,60.3
+L0513,Data Science,2025-Q2,76.0,64.4
+L0514,DevOps,2024-Q4,83.0,62.3
+L0515,AI/ML,2025-Q3,81.0,40.5
+L0516,Data Science,2024-Q4,89.0,55.0
+L0517,Software Engineering,2024-Q3,80.0,54.0
+L0518,Software Engineering,2025-Q1,79.0,54.8
+L0519,Data Science,2024-Q4,98.0,47.7
+L0520,Software Engineering,2025-Q3,79.0,59.4
+L0521,Software Engineering,2024-Q4,72.0,62.5
+L0522,Software Engineering,2024-Q3,85.0,33.8
+L0523,DevOps,2025-Q1,95.0,53.0
+L0524,Software Engineering,2024-Q4,78.0,77.5
+L0525,Software Engineering,2025-Q2,80.0,52.5
+L0526,Data Science,2024-Q4,84.0,32.8
+L0527,Software Engineering,2024-Q4,87.0,55.5
+L0528,Software Engineering,2025-Q2,83.0,61.4
+L0529,Data Science,2025-Q1,81.0,96.3
+L0530,AI/ML,2025-Q3,88.0,86.7
+L0531,DevOps,2024-Q3,93.0,64.5
+L0532,Software Engineering,2025-Q3,84.0,63.1
+L0533,Data Science,2024-Q4,78.0,82.9
+L0534,Software Engineering,2025-Q1,85.0,66.5
+L0535,DevOps,2025-Q2,78.0,55.2
+L0536,Data Science,2025-Q3,76.0,69.6
+L0537,Software Engineering,2024-Q4,88.0,37.4
+L0538,Software Engineering,2025-Q2,75.0,55.8
+L0539,Data Science,2025-Q3,90.0,51.3
+L0540,AI/ML,2024-Q4,90.0,57.1
+L0541,Software Engineering,2025-Q1,64.0,69.3
+L0542,Data Science,2025-Q1,85.0,53.0
+L0543,Data Science,2025-Q3,64.0,69.9
+L0544,Software Engineering,2024-Q4,84.0,38.1
+L0545,Software Engineering,2025-Q2,67.0,41.2
+L0546,Software Engineering,2025-Q3,89.0,67.6
+L0547,Software Engineering,2025-Q3,98.0,66.8
+L0548,Data Science,2025-Q3,92.0,46.0
+L0549,Software Engineering,2025-Q3,82.0,44.3
+L0550,Data Science,2024-Q4,81.0,73.9
+L0551,AI/ML,2024-Q4,84.0,58.7
+L0552,AI/ML,2024-Q4,91.0,63.8
+L0553,Software Engineering,2025-Q1,85.0,44.1
+L0554,AI/ML,2025-Q3,99.0,54.9
+L0555,Data Science,2025-Q2,85.0,70.9
+L0556,Software Engineering,2025-Q2,85.0,73.3
+L0557,Data Science,2024-Q4,92.0,40.9
+L0558,Software Engineering,2024-Q4,88.0,74.0
+L0559,DevOps,2025-Q1,77.0,45.5
+L0560,Software Engineering,2025-Q3,84.0,80.7
+L0561,AI/ML,2025-Q1,75.0,52.0
+L0562,Data Science,2025-Q2,83.0,51.6
+L0563,Software Engineering,2025-Q3,62.0,64.0
+L0564,Software Engineering,2025-Q1,88.0,34.5
+L0565,AI/ML,2025-Q2,66.0,32.6
+L0566,Software Engineering,2025-Q3,75.0,36.5
+L0567,Software Engineering,2025-Q1,84.0,37.7
+L0568,DevOps,2025-Q1,78.0,58.6
+L0569,Data Science,2024-Q3,86.0,37.6
+L0570,AI/ML,2024-Q4,70.0,59.6
+L0571,AI/ML,2025-Q2,91.0,57.0
+L0572,AI/ML,2025-Q2,72.0,62.6
+L0573,Software Engineering,2024-Q4,93.0,60.6
+L0574,Data Science,2025-Q3,76.0,96.4
+L0575,Data Science,2024-Q3,94.0,39.3
+L0576,Software Engineering,2024-Q4,80.0,42.8
+L0577,AI/ML,2025-Q3,78.0,47.3
+L0578,Data Science,2024-Q4,74.0,99
+L0579,DevOps,2025-Q2,69.0,36.9
+L0580,AI/ML,2025-Q3,95.0,70.6
+L0581,AI/ML,2025-Q2,91.0,55.8
+L0582,DevOps,2025-Q3,68.0,58.6
+L0583,Data Science,2025-Q1,86.0,71.9
+L0584,DevOps,2025-Q1,89.0,74.5
+L0585,Software Engineering,2025-Q1,86.0,95.8
+L0586,Software Engineering,2025-Q1,93.0,71.3
+L0587,DevOps,2024-Q3,91.0,66.6
+L0588,Software Engineering,2024-Q4,69.0,73.3
+L0589,Software Engineering,2024-Q4,80.0,76.5
+L0590,AI/ML,2024-Q3,78.0,57.4
+L0591,Data Science,2024-Q3,84.0,34.9
+L0592,Data Science,2024-Q4,84.0,58.1
+L0593,Software Engineering,2024-Q4,83.0,55.7
+L0594,Data Science,2025-Q1,88.0,71.0
+L0595,Software Engineering,2025-Q3,61.0,33.0
+L0596,Software Engineering,2025-Q2,76.0,77.4
+L0597,Data Science,2025-Q3,92.0,53.0
+L0598,Software Engineering,2025-Q2,59.0,53.8
+L0599,Software Engineering,2024-Q4,83.0,67.4
+L0600,Software Engineering,2025-Q2,85.0,56.5
+L0601,Software Engineering,2025-Q1,93.0,55.3
+L0602,AI/ML,2024-Q4,86.0,70.2
+L0603,Software Engineering,2024-Q3,89.0,49.4
+L0604,Data Science,2025-Q2,57.0,49.6
+L0605,Data Science,2025-Q3,84.0,67.4
+L0606,DevOps,2024-Q3,85.0,52.6
+L0607,Data Science,2025-Q2,71.0,76.9
+L0608,Software Engineering,2024-Q3,73.0,53.1
+L0609,Data Science,2025-Q3,72.0,43.4
+L0610,Software Engineering,2025-Q1,83.0,78.3
+L0611,Software Engineering,2025-Q1,54.0,76.2
+L0612,Software Engineering,2024-Q4,79.0,38.3
+L0613,Software Engineering,2025-Q3,74.0,46.8
+L0614,Software Engineering,2025-Q1,79.0,87.9
+L0615,Software Engineering,2025-Q1,82.0,70.9
+L0616,Software Engineering,2025-Q2,76.0,78.4
+L0617,Software Engineering,2025-Q1,92.0,56.4
+L0618,Data Science,2025-Q3,71.0,76.3
+L0619,DevOps,2025-Q3,95.0,52.9
+L0620,AI/ML,2025-Q2,86.0,70.1
+L0621,Software Engineering,2025-Q1,93.0,59.6
+L0622,Software Engineering,2024-Q4,70.0,48.0
+L0623,DevOps,2025-Q1,96.0,70.9
+L0624,Software Engineering,2025-Q2,80.0,57.7
+L0625,DevOps,2025-Q3,86.0,44.3
+L0626,Data Science,2024-Q4,87.0,49.8
+L0627,Data Science,2025-Q2,72.0,63.9
+L0628,Data Science,2025-Q1,66.0,82.8
+L0629,Software Engineering,2025-Q1,90.0,54.8
+L0630,DevOps,2025-Q3,93.0,64.9
+L0631,Software Engineering,2025-Q2,81.0,47.1
+L0632,Data Science,2024-Q3,67.0,53.6
+L0633,Data Science,2025-Q3,90.0,49.7
+L0634,Software Engineering,2024-Q4,76.0,74.6
+L0635,AI/ML,2025-Q2,99.0,66.1
+L0636,Data Science,2025-Q1,79.0,45.3
+L0637,Data Science,2025-Q3,90.0,47.2
+L0638,DevOps,2024-Q3,56.0,48.8
+L0639,Software Engineering,2025-Q3,98.0,24.3
+L0640,DevOps,2025-Q1,78.0,27.1
+L0641,Software Engineering,2024-Q4,92.0,66.1
+L0642,DevOps,2025-Q1,79.0,68.8
+L0643,Software Engineering,2025-Q2,86.0,25.4
+L0644,Software Engineering,2025-Q1,98.0,56.1
+L0645,Software Engineering,2025-Q3,88.0,63.1
+L0646,Software Engineering,2025-Q2,96.0,60.3
+L0647,AI/ML,2024-Q4,78.0,81.6
+L0648,DevOps,2025-Q2,89.0,55.6
+L0649,Software Engineering,2025-Q2,98.0,61.4
+L0650,Software Engineering,2025-Q1,84.0,88.8
+L0651,Data Science,2025-Q1,71.0,69.7
+L0652,AI/ML,2025-Q2,82.0,71.9
+L0653,DevOps,2024-Q4,94.0,52.8
+L0654,Data Science,2024-Q4,82.0,64.5
+L0655,Software Engineering,2024-Q4,80.0,39.3
+L0656,AI/ML,2025-Q1,80.0,63.8
+L0657,Software Engineering,2025-Q1,84.0,78.2
+L0658,AI/ML,2025-Q2,93.0,77.7
+L0659,Data Science,2025-Q2,79.0,48.6
+L0660,DevOps,2024-Q4,85.0,52.9
+L0661,AI/ML,2025-Q1,96.0,45.1
+L0662,Software Engineering,2025-Q1,78.0,48.9
+L0663,Data Science,2025-Q2,74.0,74.6
+L0664,Software Engineering,2025-Q2,88.0,40.3
+L0665,Software Engineering,2025-Q2,88.0,40.2
+L0666,Software Engineering,2025-Q3,90.0,65.0
+L0667,Data Science,2024-Q3,82.0,36.6
+L0668,Data Science,2025-Q2,92.0,65.2
+L0669,Software Engineering,2025-Q1,85.0,74.1
+L0670,Software Engineering,2025-Q2,93.0,63.4
+L0671,AI/ML,2025-Q1,89.0,48.1
+L0672,Data Science,2025-Q1,79.0,28.6
+L0673,AI/ML,2025-Q2,97.0,82.4
+L0674,Software Engineering,2024-Q3,88.0,62.1
+L0675,Data Science,2024-Q4,86.0,34.5
+L0676,Software Engineering,2025-Q2,80.0,76.1
+L0677,Software Engineering,2024-Q4,86.0,66.4
+L0678,Software Engineering,2025-Q2,95.0,40.5
+L0679,AI/ML,2025-Q3,85.0,62.0
+L0680,Software Engineering,2025-Q2,90.0,42.8
+L0681,Data Science,2025-Q2,78.0,67.7
+L0682,Software Engineering,2025-Q2,84.0,64.2
+L0683,Data Science,2025-Q3,87.0,39.6
+L0684,Software Engineering,2025-Q3,82.0,72.1
+L0685,Software Engineering,2025-Q1,75.0,67.9
+L0686,Software Engineering,2025-Q2,80.0,57.3
+L0687,Software Engineering,2025-Q2,83.0,72.8
+L0688,Software Engineering,2025-Q2,74.0,50.5
+L0689,Data Science,2025-Q2,58.0,88.1
+L0690,Data Science,2025-Q2,89.0,65.9
+L0691,Software Engineering,2025-Q1,91.0,33.6
+L0692,AI/ML,2024-Q4,95.0,88.8
+L0693,AI/ML,2025-Q1,61.0,51.1
+L0694,Software Engineering,2024-Q4,89.0,71.3
+L0695,Software Engineering,2024-Q3,96.0,63.8
+L0696,Data Science,2025-Q2,95.0,61.5
+L0697,Data Science,2025-Q1,78.0,49.9
+L0698,Software Engineering,2025-Q3,88.0,62.1
+L0699,Software Engineering,2025-Q3,74.0,81.8
+L0700,DevOps,2024-Q4,71.0,67.0
+L0701,Software Engineering,2025-Q1,88.0,55.4
+L0702,Software Engineering,2025-Q1,78.0,51.6
+L0703,Data Science,2025-Q1,69.0,59.2
+L0704,Data Science,2024-Q4,83.0,64.3
+L0705,Software Engineering,2024-Q4,71.0,46.7
+L0706,AI/ML,2025-Q2,69.0,83.5
+L0707,DevOps,2025-Q1,86.0,58.1
+L0708,Data Science,2024-Q4,80.0,56.5
+L0709,Software Engineering,2024-Q4,94.0,60.0
+L0710,Software Engineering,2025-Q2,83.0,43.8
+L0711,DevOps,2025-Q1,80.0,68.6
+L0712,Data Science,2024-Q4,75.0,63.2
+L0713,DevOps,2025-Q1,91.0,48.9
+L0714,AI/ML,2024-Q4,66.0,56.6
+L0715,Data Science,2025-Q2,65.0,51.7
+L0716,Software Engineering,2025-Q2,72.0,66.9
+L0717,Software Engineering,2025-Q2,82.0,77.1
+L0718,DevOps,2024-Q4,91.0,61.5
+L0719,DevOps,2025-Q3,89.0,53.5
+L0720,DevOps,2025-Q2,81.0,69.6
+L0721,Software Engineering,2024-Q4,95.0,65.4
+L0722,Data Science,2025-Q3,73.0,72.0
+L0723,Software Engineering,2024-Q4,84.0,99
+L0724,AI/ML,2024-Q4,76.0,39.6
+L0725,Software Engineering,2025-Q2,71.0,40.1
+L0726,AI/ML,2024-Q4,82.0,45.3
+L0727,Software Engineering,2025-Q1,90.0,35.4
+L0728,Software Engineering,2025-Q1,73.0,43.4
+L0729,Software Engineering,2025-Q1,73.0,83.3
+L0730,AI/ML,2024-Q3,78.0,74.6
+L0731,Data Science,2025-Q2,92.0,59.9
+L0732,Data Science,2025-Q1,56.0,55.9
+L0733,Data Science,2025-Q1,67.0,58.9
+L0734,Software Engineering,2024-Q3,98.0,39.1
+L0735,AI/ML,2025-Q2,86.0,48.0
+L0736,DevOps,2025-Q2,93.0,69.5
+L0737,Data Science,2024-Q3,85.0,60.2
+L0738,DevOps,2025-Q3,72.0,75.8
+L0739,Data Science,2024-Q3,90.0,69.3
+L0740,DevOps,2025-Q1,96.0,64.1
+L0741,Data Science,2024-Q4,95.0,55.4
+L0742,Data Science,2025-Q1,93.0,56.9
+L0743,Software Engineering,2025-Q3,85.0,78.7
+L0744,Data Science,2024-Q4,66.0,47.1
+L0745,Software Engineering,2024-Q4,69.0,47.5
+L0746,AI/ML,2024-Q4,96.0,58.3
+L0747,AI/ML,2025-Q2,82.0,62.2
+L0748,Software Engineering,2024-Q3,84.0,99
+L0749,Data Science,2025-Q2,71.0,59.9
+L0750,Software Engineering,2025-Q1,74.0,56.4
+L0751,AI/ML,2024-Q4,82.0,88.7
+L0752,Software Engineering,2025-Q2,72.0,52.9
+L0753,DevOps,2025-Q2,85.0,52.3
+L0754,Software Engineering,2025-Q2,88.0,80.1
+L0755,Data Science,2025-Q3,81.0,51.2
+L0756,DevOps,2025-Q1,86.0,29.9
+L0757,Software Engineering,2025-Q1,84.0,62.4
+L0758,Software Engineering,2024-Q4,77.0,63.8
+L0759,AI/ML,2024-Q3,63.0,83.4
+L0760,Data Science,2025-Q2,89.0,78.7
+L0761,Software Engineering,2024-Q3,84.0,67.6
+L0762,Software Engineering,2024-Q4,83.0,52.0
+L0763,Software Engineering,2025-Q1,81.0,53.4
+L0764,AI/ML,2024-Q3,82.0,76.5
+L0765,Software Engineering,2025-Q2,98.0,60.2
+L0766,Software Engineering,2025-Q1,71.0,45.3
+L0767,Software Engineering,2025-Q1,75.0,75.8
+L0768,DevOps,2025-Q2,82.0,56.6
+L0769,Software Engineering,2025-Q3,77.0,66.1
+L0770,Data Science,2025-Q1,84.0,73.0
+L0771,DevOps,2025-Q3,90.0,49.5
+L0772,AI/ML,2025-Q1,67.0,71.7
+L0773,DevOps,2025-Q1,75.0,78.6
+L0774,Software Engineering,2024-Q3,87.0,63.3
+L0775,Software Engineering,2024-Q4,78.0,49.1
+L0776,Software Engineering,2025-Q3,92.0,74.1
+L0777,DevOps,2024-Q4,78.0,64.8
+L0778,Software Engineering,2024-Q4,60.0,39.4
+L0779,Software Engineering,2024-Q3,87.0,56.4
+L0780,AI/ML,2024-Q4,97.0,49.4
+L0781,Software Engineering,2024-Q3,81.0,60.5
+L0782,Software Engineering,2025-Q2,83.0,49.4
+L0783,Software Engineering,2024-Q4,88.0,60.0
+L0784,AI/ML,2025-Q2,91.0,70.9
+L0785,Software Engineering,2025-Q1,94.0,41.3
+L0786,Software Engineering,2025-Q3,98.0,63.8
+L0787,Software Engineering,2025-Q2,77.0,69.1
+L0788,DevOps,2024-Q4,68.0,82.0
+L0789,Data Science,2025-Q1,95.0,75.2
+L0790,AI/ML,2024-Q4,90.0,49.0
+L0791,Software Engineering,2024-Q4,81.0,33.7
+L0792,Data Science,2025-Q3,83.0,84.4
+L0793,AI/ML,2025-Q2,72.0,56.5
+L0794,AI/ML,2025-Q3,70.0,44.8
+L0795,Data Science,2024-Q4,84.0,62.8
+L0796,Data Science,2025-Q2,81.0,87.4
+L0797,DevOps,2025-Q1,84.0,69.7
+L0798,Software Engineering,2025-Q1,67.0,54.7
+L0799,Software Engineering,2025-Q3,65.0,53.9
+L0800,Data Science,2025-Q1,83.0,66.1

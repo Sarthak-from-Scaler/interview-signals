@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interview Signals</title>
+<meta name="description" content="A data-analytics story for class: from messy interview notes to a curriculum decision.">
+<link rel="stylesheet" href="css/site.css?v=415fc55">
+</head>
+<body>
+
+<header class="topbar">
+    <div class="brand"><b>Interview Signals</b><span>A data story</span></div>
+    <nav class="stepper" id="stepper" aria-label="Chapters"></nav>
+    <div class="tools">
+        <button class="tool" id="t-notes" aria-pressed="false" title="Speaker notes (N)">Notes</button>
+        <button class="tool" id="t-reset" title="Reset every filter (R)">Reset</button>
+        <button class="tool" id="t-smaller" title="Smaller text">A−</button>
+        <button class="tool" id="t-bigger" title="Bigger text">A+</button>
+        <button class="tool" id="t-help" title="Keyboard shortcuts (?)">?</button>
+    </div>
+</header>
+
+<main>
+
+<!-- ============================================================ CH 1 -->
+<section class="chapter" data-id="1" data-title="The question">
+    <div class="chapter-head">
+        <div class="eyebrow">1 · The question</div>
+        <p class="big-question">Which <em>three</em> interview topics should we fix this quarter?</p>
+        <p class="lede">One module owner. Three fixes. Can learners’ interview notes tell us where?</p>
+    </div>
+    <div class="grid four" id="kpis"></div>
+    <div class="grid two">
+        <div class="guess">
+            <h3>Your guess first</h3>
+            <textarea id="guess" aria-label="Your three guesses" placeholder="Three topics…"></textarea>
+        </div>
+        <div class="card flat">
+            <h3>How we’ll answer it</h3>
+            <div class="journey">
+                <a href="#/2"><b>2 · The data</b></a>
+                <a href="#/3"><b>3 · Clean & store</b></a>
+                <a href="#/4"><b>4 · Show</b></a>
+                <a href="#/5"><b>5 · Read</b></a>
+                <a href="#/6"><b>6 · Decide</b></a>
+            </div>
+        </div>
+    </div>
+    <aside class="notes"><b>Say (3 min):</b><ul>
+        <li>We train learners in four programmes and help them get hired. One module owner has time for three fixes before the next cohort.</li>
+        <li>Frame it as a resource decision, not a data question.</li>
+        <li>Tiles: thousands of questions, but about a fifth never got an answer from the company.</li>
+        <li>Ask the class to write three guesses. Gut feel is the baseline data has to beat.</li>
+        <li>Everything is invented for teaching, but shaped like the real thing.</li></ul></aside>
+</section>
+
+<!-- ============================================================ CH 2 -->
+<section class="chapter" data-id="2" data-title="The data">
+    <div class="chapter-head">
+        <div class="eyebrow">2 · What data exists</div>
+        <h2>Four spreadsheets nobody designed for this question</h2>
+    </div>
+    <div class="grid four" id="sources"></div>
+    <div class="grid two">
+        <div class="card">
+            <h3>How they connect</h3>
+            <svg viewBox="0 0 640 210" role="img" aria-label="The interview sheet links to learners by email and to jobs by job ID; applications link learners to jobs" id="joins"></svg>
+        </div>
+        <div class="card">
+            <h3>What we don’t have</h3>
+            <ul class="problems">
+                <li><b>Why a company went silent</b></li>
+                <li><b>The company’s own scorecard</b>: only the learner’s account</li>
+                <li><b>A third of interviews</b>: never written up (<span id="capture-rate">two thirds</span> captured)</li>
+            </ul>
+        </div>
+    </div>
+    <aside class="notes"><b>Say (5 min):</b><ul>
+        <li>Real-world data is exhaust from operations, not built for your question.</li>
+        <li>For each sheet: who fills it, when, and what one row is. Getting the grain right is half of analytics. Click “peek” to show real rows.</li>
+        <li>The interview form has the learner’s email, not their ID: matching email to learner is the first join, and a typo breaks it.</li>
+        <li>What we don’t have decides which conclusions are safe. Silent companies: did the learner do badly, or did the company just stop replying?</li>
+        <li><b>Ask:</b> what would you want to know that none of these sheets can tell you?</li></ul></aside>
+</section>
+
+<!-- ============================================================ CH 3 -->
+<section class="chapter" data-id="3" data-title="Raw to reliable">
+    <div class="chapter-head">
+        <div class="eyebrow">3 · Transform and store</div>
+        <h2>Every night: copy, clean, label, check</h2>
+    </div>
+    <div class="pipeline" id="pipeline"></div>
+    <p class="small muted" id="lineage-line"></p>
+    <div class="grid two">
+        <div class="card">
+            <h3>Cleaning: before → after</h3>
+            <div class="table-wrap" id="before-after"></div>
+        </div>
+        <div class="card classifier">
+            <h3>Which topic is this question?</h3>
+            <div class="filters"><div class="field">Programme <select id="clf-programme"></select></div></div>
+            <input id="clf-input" type="text" aria-label="Type an interview question" placeholder="Type an interview question…">
+            <div class="examples" id="clf-examples"></div>
+            <div class="result" id="clf-result"></div>
+            <p class="tiny muted" id="clf-stats"></p>
+        </div>
+    </div>
+    <div class="card">
+        <h3>Checks before anyone sees a number</h3>
+        <ul class="checks" id="checks"></ul>
+    </div>
+    <aside class="notes"><b>Say (8 min):</b><ul>
+        <li>Layers: raw is an exact copy (never edited); clean fixes formats and removes duplicates and personal data; the fact table is one row per question; the summary is what charts read. Click a step to open its table.</li>
+        <li>Every dropped row has a reason (the line under the pipeline). Trust = being able to answer “where did it go?”.</li>
+        <li>Before → after: ten spellings of a round become one; five date formats become one; free-text results become an outcome. Yellow = changed.</li>
+        <li>Topic box: learners’ own topic labels are useless (“misc”, “dsa”), so we read the question. Keyword rules first (cheap, explainable); the AI handles what they miss (about 85% right); a module owner corrects the AI. Try a clear question, then a vague one.</li>
+        <li>Checks: a failure stops the load and keeps yesterday’s numbers; a warning lets it through and tells someone. The warning is real: DevOps write-ups are three weeks late, so recent DevOps numbers look quieter than they were.</li></ul></aside>
+</section>
+
+<!-- ============================================================ CH 4 -->
+<section class="chapter" data-id="4" data-title="Show it">
+    <div class="chapter-head">
+        <div class="eyebrow">4 · Show it</div>
+        <h2>Asked often and cleared rarely: that corner is the action list</h2>
+    </div>
+    <div class="filters" id="map4-filters"></div>
+    <div class="scenes" id="map4-scenes"><span class="small muted">Jump to:</span></div>
+    <div class="legend" id="map4-legend"></div>
+    <div class="map-layout">
+        <div id="map4"></div>
+        <div class="side">
+            <div class="card hl">
+                <h3>Focus here</h3>
+                <ol class="focus-list" id="map4-focus"></ol>
+                <p class="tiny muted" id="map4-meta"></p>
+            </div>
+            <div class="card">
+                <h3>Busy, but fine</h3>
+                <p class="small" id="map4-busy"></p>
+            </div>
+            <label class="toggle"><input type="checkbox" id="map4-table"> Show as a table</label>
+        </div>
+    </div>
+    <aside class="notes"><b>Say (5 min):</b><ul>
+        <li>Each bubble is a topic. Across: how often asked. Up: how often cleared. Size: questions per round (how deep interviewers dig). Colour: asked more or less than six months ago.</li>
+        <li>The shaded corner is important AND hard. A topic asked often but cleared easily (Behavioral) is not a priority.</li>
+        <li>Switch programmes and watch the bubbles move. Jump buttons go to prepared moments. Click a bubble to read its questions.</li>
+        <li><b>Ask:</b> where would you act? Compare with your guesses.</li></ul></aside>
+</section>
+
+<!-- ============================================================ CH 5 -->
+<section class="chapter" data-id="5" data-title="Read it">
+    <div class="chapter-head">
+        <div class="eyebrow">5 · Read it</div>
+        <h2>Before acting, three questions to ask of any chart</h2>
+    </div>
+    <div class="map-layout">
+        <div id="map5"></div>
+        <div class="side">
+            <div class="card walk" id="walk"></div>
+        </div>
+    </div>
+    <div class="grid three">
+        <div class="card">
+            <div class="eyebrow">Missing answers</div>
+            <h3>What if every silent company had said yes, or no?</h3>
+            <div class="segmented" id="silent-as">
+                <button data-v="excluded" aria-pressed="true">Unknown</button>
+                <button data-v="cleared" aria-pressed="false">All cleared</button>
+                <button data-v="struggled" aria-pressed="false">All struggled</button>
+            </div>
+            <p class="tiny muted" id="silent-note"></p>
+        </div>
+        <div class="card">
+            <div class="eyebrow">Small samples</div>
+            <h3>How many answers before we trust a rate?</h3>
+            <label class="slider">Minimum <input type="range" id="min-known" min="5" max="50" step="5" value="20"> <b id="min-known-v">20</b></label>
+        </div>
+        <div class="card">
+            <div class="eyebrow">Correlation</div>
+            <h3>Practice score vs clear rate: cause?</h3>
+            <div class="bars" id="psp-bars"></div>
+            <p class="tiny muted" id="capture-note"></p>
+        </div>
+    </div>
+    <aside class="notes"><b>Say (7 min):</b><ul>
+        <li>Walkthrough (Next): axes, the corner, a red ring, a hollow bubble, LLM appearing.</li>
+        <li><b>Missing answers:</b> about a fifth of questions have no verdict because the company went silent. We leave them out. Toggle “all cleared” / “all struggled”: bubbles shift, but the red-ringed topics stay worse than average either way. That is why the rule needs both ends.</li>
+        <li><b>Small samples:</b> a topic with 5 answers can look terrible by chance. Below the minimum, bubbles go hollow and get no rating. At 5 we act on noise; at 50 we ignore real problems. Choosing a threshold is a judgement call: write it down. The 60-day window in chapter 4 makes most topics hollow.</li>
+        <li><b>Correlation:</b> higher practice scores, higher clear rates. Does practice cause it, or do stronger learners practise more and get easier companies? And a third of interviews are never written up: if strugglers write up less, every rate is too rosy.</li></ul></aside>
+</section>
+
+<!-- ============================================================ CH 6 -->
+<section class="chapter" data-id="6" data-title="Decide">
+    <div class="chapter-head">
+        <div class="eyebrow">6 · Decide</div>
+        <h2>One signal, one owner, one action, one measure</h2>
+    </div>
+    <div class="grid three" id="decisions"></div>
+    <div class="card hl">
+        <h3>How we’ll know it worked</h3>
+        <p>New module for the next cohort, old module for a matched cohort. Compare in three months.</p>
+    </div>
+    <aside class="notes"><b>Say (5 min):</b><ul>
+        <li>Analytics doesn’t decide; it hands a clear signal to the person who can act.</li>
+        <li>Curriculum: the shaded-corner topic in each programme goes to its module owner: rework the module, add a mock interview on it.</li>
+        <li>Partnerships: some problems aren’t ours to teach away. Companies that go silent get a feedback deadline or fewer learners.</li>
+        <li>Content: LLM is new or rising everywhere. Get ahead of it before it reaches the corner.</li>
+        <li>Measurement: agree the metric first; keep a comparison cohort (if the whole market gets easier, both improve and the difference is what the module did); add a guardrail so other topics don’t slip.</li>
+        <li><b>Ask:</b> how did your three guesses do?</li></ul></aside>
+</section>
+
+<!-- ============================================================ SUMMARY -->
+<section class="chapter" data-id="summary" data-title="Summary">
+    <div class="chapter-head">
+        <div class="eyebrow">Summary</div>
+        <h2>From messy notes to a decision, on one page</h2>
+    </div>
+    <div class="summary-flow" id="summary-flow"></div>
+    <div class="grid two">
+        <div class="card hl">
+            <h3>What we’d act on</h3>
+            <ol class="focus-list" id="summary-answer"></ol>
+        </div>
+        <div class="card">
+            <h3>Three lessons</h3>
+            <ol class="focus-list">
+                <li><b>Know the grain and the gaps</b> before trusting a number.</li>
+                <li><b>Every number traces back to a row.</b></li>
+                <li><b>Agree the measure before you act.</b></li>
+            </ol>
+        </div>
+    </div>
+    <aside class="notes"><b>Say (2 min):</b><ul>
+        <li>Walk the five boxes left to right: that is the whole job of analytics.</li>
+        <li>The answer: one topic per programme, each with an owner and a measure.</li>
+        <li>Lessons: the data was never designed for the question; trust comes from lineage and checks; decide what would prove you wrong before acting.</li>
+        <li>Open the floor: which step would break first in your organisation?</li></ul></aside>
+</section>
+
+<!-- ============================================================ EXPLORER -->
+<section class="chapter" data-id="explorer" data-title="Source data">
+    <div class="chapter-head">
+        <div class="eyebrow">Source data explorer</div>
+        <h2>Every table behind the story</h2>
+        <p class="lede">Raw → Clean → Fact → Summary. Every number traces back to a row here.</p>
+    </div>
+    <div class="explorer-bar">
+        <div class="tabs" id="ex-layer"></div>
+        <div class="field">Table <select id="ex-table"></select></div>
+        <div class="field">Search <input type="text" id="ex-search" placeholder="Any text…"></div>
+        <div id="ex-filters" class="filters"></div>
+        <button class="btn ghost" id="ex-csv">Download this view (CSV)</button>
+    </div>
+    <p class="small muted" id="ex-count"></p>
+    <div class="table-wrap explorer-table" id="ex-table-wrap"></div>
+    <div class="pager" id="ex-pager"></div>
+    <aside class="notes"><b>Use when someone asks “where does that number come from?”</b><ul>
+        <li>Clicking a bubble’s “Open in explorer” lands here, filtered to that topic.</li>
+        <li>Show one messy raw row, then the same row in clean (yellow cells changed), then in fact with its topic and outcome.</li></ul></aside>
+</section>
+
+<!-- ============================================================ METHOD -->
+<section class="chapter" data-id="method" data-title="Method">
+    <div class="chapter-head">
+        <div class="eyebrow">Method and glossary</div>
+        <h2>Every rule, in plain words</h2>
+    </div>
+    <div class="grid two" id="method"></div>
+    <div class="card flat"><p class="small muted" id="synthetic-note"></p></div>
+</section>
+
+</main>
+
+<div id="presenter">
+    <div class="eyebrow">Presenter view</div>
+    <div class="now" id="p-now"></div>
+    <div class="timer" id="p-timer">00:00</div>
+    <div class="card" id="p-notes"></div>
+    <div class="small muted" id="p-next"></div>
+</div>
+
+<div class="drawer" id="drawer" role="dialog" aria-modal="false" aria-labelledby="drawer-title">
+    <header>
+        <div><div class="eyebrow" id="drawer-eyebrow"></div><h3 id="drawer-title"></h3><p class="small muted" id="drawer-meta"></p>
+            <button class="btn ghost" id="drawer-explore" style="align-self:start">Open in explorer</button></div>
+        <button class="tool" id="drawer-close" aria-label="Close">Close</button>
+    </header>
+    <div class="body" id="drawer-body"></div>
+</div>
+
+<div class="overlay" id="help"><div class="card">
+    <h3>Keyboard</h3>
+    <p class="small"><kbd>←</kbd> <kbd>→</kbd> or a clicker: previous / next chapter · <kbd>1</kbd>–<kbd>9</kbd>: jump to a chapter<br>
+        <kbd>N</kbd> speaker notes · <kbd>R</kbd> reset filters · <kbd>F</kbd> full screen · <kbd>?</kbd> this help · <kbd>Esc</kbd> close<br>
+        Presenter view: add <span class="mono">?presenter</span> to the address in a second window.</p>
+    <button class="btn" id="help-close">Close</button>
+</div></div>
+
+<script src="vendor/d3.min.js?v=415fc55"></script>
+<script src="data/meta.js?v=415fc55"></script>
+<script src="data/fact.js?v=415fc55"></script>
+<script src="data/mart.js?v=415fc55"></script>
+<script src="data/clean.js?v=415fc55"></script>
+<script src="data/raw.js?v=415fc55"></script>
+<script src="js/stats.js?v=415fc55"></script>
+<script src="js/map.js?v=415fc55"></script>
+<script src="js/explorer.js?v=415fc55"></script>
+<script src="js/app.js?v=415fc55"></script>
+</body>
+</html>
